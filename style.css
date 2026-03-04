@@ -32,6 +32,17 @@ html {
   align-items: center;
 }
 
+/* My work- responsive */
+@media (max-width: 600px) {
+  .flex-col {
+    flex-direction: column;
+  }
+
+  .flex-col img {
+    padding-top: 3rem;
+  }
+}
+
 /* override the font color */ 
 .w3-bar .w3-bar-item {
   color: #000;
@@ -105,6 +116,7 @@ html {
 .loader-75 {
   --progress: 75%;
 }
+
 
 
 

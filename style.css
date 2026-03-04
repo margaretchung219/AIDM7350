@@ -14,12 +14,22 @@ html {
   line-height: 1.8;
 }
 
+/* fonts */
+.font-white {
+  color: white;
+}
+
+/* flex box */
 .d-flex {
   display: flex;
 }
 
 .justify-content-evenly {
   justify-content: space-evenly;
+}
+
+.align-items-center {
+  align-items: center;
 }
 
 /* override the font color */ 
@@ -70,6 +80,30 @@ html {
     background-attachment: scroll;
     min-height: 400px;
   }
+}
+
+/* Bar Animation */
+.loader {
+  width: 100%;
+  height: 35px;
+  background: linear-gradient(#616161 0 0) 0 / 0% no-repeat #ddd; /* explicit start */
+  animation: l1 2s forwards;
+}
+
+@keyframes l1 {
+  to {
+    background-size: var(--progress, 100%);
+  }
+}
+
+.loader-100 {
+  --progress: 100%;
+}
+.loader-80 {
+  --progress: 80%;
+}
+.loader-75 {
+  --progress: 75%;
 }
 
 

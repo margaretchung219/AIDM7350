@@ -22,6 +22,11 @@ html {
   justify-content: space-evenly;
 }
 
+/* override the font color */ 
+.w3-bar .w3-bar-item {
+  color: #000;
+}
+
 /* Create a Parallax Effect */
 .bgimg-1,
 .bgimg-2,
@@ -66,6 +71,7 @@ html {
     min-height: 400px;
   }
 }
+
 
 
 

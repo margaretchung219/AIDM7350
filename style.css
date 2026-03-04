@@ -34,7 +34,7 @@ html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url("./images/parallax1.png");
+  background-image: url("./images/parallax1.JPG");
   min-height: 100%;
 }
 
@@ -46,7 +46,7 @@ html {
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("./images/parallax3.png");
+  background-image: url("./images/parallax3.JPG");
   min-height: 400px;
 }
 
@@ -66,5 +66,6 @@ html {
     min-height: 400px;
   }
 }
+
 
 
